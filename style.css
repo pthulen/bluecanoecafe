@@ -1,0 +1,142 @@
+html,
+body {
+  font-family: 'Poiret One', cursive;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 30rem; 
+  padding-top: 1rem;
+  background-image: url(./resources/jesse-borovnica-VjMJmwZOs9M-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav, a {
+  background-color: rgb(74, 135, 233);
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  
+}
+li:hover {
+  opacity: 0.7;
+}
+li {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 3em;  
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.8em;
+}
+.description p {
+  font-size: 1.25em;
+}
+.supporting {
+  display: flex;
+  align-items: flex-start;
+  margin: 4em auto;
+  padding: 0 1rem;
+}
+
+.supporting img {
+	height: 10%;
+  width: 10%;
+  margin-right: 5%;
+}
+
+.menu {
+  background-color:#e68134;
+  color:white;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.biglogo {
+  background-image: url(./resources/maxresdefault.jpg);
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hours {
+  text-align: center;
+}
+.hours h5, p {
+  margin: .75rem 0;
+}
+.gallery img {
+  display: block;
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .supporting img {
+    display: none;
+  }
+}
+
+.social {
+  margin: 3em 0;
+  text-align: center;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3f729b;
+  color: white;
+}
